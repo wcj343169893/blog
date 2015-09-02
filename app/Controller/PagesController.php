@@ -103,7 +103,7 @@ class PagesController extends AppController {
 	 *        	mixed What page to display
 	 * @return void
 	 */
-	public function display() {
+	public function display($page = 1) {
 		$path = func_get_args ();
 		
 		$count = count ( $path );
@@ -111,10 +111,9 @@ class PagesController extends AppController {
 			$this->redirect ( '/' );
 		}
 		$title_for_layout = null;
-		$page = 1;
-		
-		if (! empty ( $path [0] )) {
-			$page = intval ( $path [0] );
+		$page = intval ( $page );
+		if ($page <1) {
+			$page=1;
 		}
 		// $this->render(implode('/', $path));
 		$this->findBlogByPage ( $page );
@@ -200,7 +199,7 @@ class PagesController extends AppController {
 	 * 查询所有标签
 	 */
 	public function tags() {
-		$alltag = $this->Tag->find ( "all" );
+		$alltag = $this->Tag->find ( "all" ,array("conditions"=>array("Tag.tagTitle <> "=>"")));
 		$this->set ( compact ( 'alltag' ) );
 	}
 	public function tag($tag="",$page=1) {
@@ -220,7 +219,7 @@ class PagesController extends AppController {
 // 			$page=intval($path[1]);
 // 		}
 		if(function_exists("iconv")){
-			$tag=iconv('GB2312', 'UTF-8', $tag); 
+			//$tag=iconv('GB2312', 'UTF-8', $tag); 
 		}
 // 		header("Content-Type: text/html; charset=utf-8");
 // 		echo iconv('GB2312', 'UTF-8', $tag); 
