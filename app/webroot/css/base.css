@@ -1,0 +1,58 @@
+/* 
+CSS Document
+Author:Yang
+QQ:280731718
+*/
+
+/* Reset */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video{margin:0; padding:0; border:0; font-size:100%; font:inherit; vertical-align:baseline;}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section{display:block; vertical-align:top;}
+body				{line-height:1; }
+ol,ul				{list-style:none;}
+blockquote,q		{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after {content:''; content:none;}
+table				{border-collapse:collapse; border-spacing:0;}
+
+
+/* Basic Styles */
+body				{background:#fff; font:10px/21px "微软雅黑", "Microsoft YaHei", Arial, Helvetica, sans-serif; color:#333; -webkit-font-smoothing:antialiased;  -webkit-text-size-adjust:none;}
+
+/* H1-h6 */
+h1,h2,h3,h4,h5,h6{font-weight:normal; letter-spacing:normal; word-spacing:normal;}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {font-weight:inherit;}
+h1					{font-size:46px; line-height:normal; margin-bottom:14px;}
+h2					{font-size:14px; line-height:normal;}
+h3					{font-size:28px; line-height:normal;}
+h4					{font-size:15px; line-height:normal;}
+h5					{font-size:17px; line-height:normal;}
+h6					{font-size:14px; line-height:normal;}
+p					{font-size:12px; line-height:normal; letter-spacing:normal; word-spacing:normal;}
+
+em					{font-style:normal;}
+strong				{font-weight:bold; color:#333;}
+small				{font-size:80%;}
+hr					{border:solid rgba(100,100,100,0.3); border-width:1px 0 0; clear:both; height:0;}
+
+/* Links */
+a					{text-overflow:ellipsis; outline:0;}
+a:link				{color:blue; text-decoration:underline;}
+a:visited			{color:purple; text-decoration:underline;}
+a:hover				{color:red; text-decoration:underline;}
+a:active, a:focus	{color:black; text-decoration:underline;}
+
+/* Lists */
+ul, ol				{margin-bottom:20px;}
+ul					{list-style:none outside;}
+ol					{list-style:decimal;}
+ol, ul.square,ul.circle, ul.disc{margin-left:30px;}
+ul.square			{list-style:square outside;}
+ul.circle			{list-style:circle outside;}
+ul.disc				{list-style:disc outside;}
+li					{line-height:18px;}
+ul.large li			{line-height:21px;}
+li p				{line-height:21px;}
+
+/* Others */
+img					{max-width:100%; height:auto; margin:0;}
+pre{white-space:pre-wrap;}
+

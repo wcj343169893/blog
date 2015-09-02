@@ -1,0 +1,256 @@
+/* CSS Document */
+body {
+	font: 12px "微软雅黑", arial;
+	background: #fff;
+}
+body, p, form, ul, li, h1, h2, h3, h4  {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a {
+	color: #00c;
+}
+input {
+	border: 0;
+	padding: 0;
+}
+#m {
+	width: 720px;
+	margin: 0px auto;
+}
+#wrap{overflow: hidden;}
+.logo {
+	text-align: center;
+	margin-top: 20px;
+	padding-top: 94px;
+	font-size: 14px;
+	color: #000;
+	height: 35px;
+	line-height: 18px;
+	background: url(../images/bdlogo.gif) no-repeat center top;
+}
+#nv {
+	height: 19px;
+	font-size: 16px;
+	margin: 0 0 4px;
+	text-align: left;
+	text-indent: 100px;
+}
+#nv a, #nv b, .btn, #lk {
+	font-size: 14px;
+}
+#fm {
+	padding-left: 90px;
+	text-align: left;
+	z-index: 1;
+	position: relative;
+}
+.innerPage #fm {
+	padding-left: 130px;
+	width: 616px;
+	margin: 0px auto;
+}
+.fmLogo {
+	width: 126px;
+	height: 40px;
+	position: absolute;
+	bottom: 5px;
+	left: 0;
+}
+.bg {
+	background-image: url(http://s1.bdstatic.com/r/www/cache/static/global/img/icons_4879d3b8.png);
+	background-repeat: no-repeat;
+	_background-image: url(http://s1.bdstatic.com/r/www/cache/static/global/img/icons_5a07887b.gif);
+}
+.s_ipt_wr {
+	width: 508px;
+	height: 30px;
+	display: inline-block;
+	margin-right: 5px;
+	background-color: #fff;
+	background-position: 0 -96px;
+	border: 1px solid #b6b6b6;
+	border-color: #9a9a9a #cdcdcd #cdcdcd #9a9a9a;
+	vertical-align: top;
+	float: left;
+}
+.s_ipt {
+	width: 495px;
+	height: 22px;
+	font: 16px/22px arial;
+	margin: 5px 0 0 7px;
+	background: #fff;
+	outline: 0;
+	-webkit-appearance: none;
+}
+.s_btn_wr {
+	width: 97px;
+	height: 34px;
+	display: inline-block;
+	background-position: -120px -48px;
+	z-index: 0;
+	vertical-align: top;
+}
+.s_btn {
+	width: 95px;
+	height: 32px;
+	padding-top: 2px\9;
+	font-size: 14px;
+	background-color: #ddd;
+	background-position: 0 -48px;
+	cursor: pointer;
+}
+#hotTag {
+	padding: 40px 0 0 95px;
+}
+#hotTag h2 {
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 24px;
+}
+.tags {
+	position: relative;
+	width: 580px;
+	height: 230px;
+}
+.tags a {
+	position: absolute;
+	text-decoration: none;
+	left: 276px;
+	top: 81px;
+}
+.innerPage {
+	background: url(../images/bg.gif);
+}
+h1 {
+	margin: 15px 0;
+	text-align: center;
+}
+h3 {
+	font-size: 24px;
+	color: #060606;
+	font-weight: normal;
+	text-align: center;
+	padding-top: 10px;
+}
+h3 span {
+	color: #427fef;
+	font-size: 30px;
+}
+.searchResult {
+	width: 800px;
+	height: 410px;
+	margin: 0 auto;
+	position: relative;
+}
+.sc {
+	padding: 20px 0 0 56px;
+}
+.xf {
+	padding: 20px 0 0 56px;
+	position: relative;
+}
+.xfResult{
+	font-size: 24px;
+	color: #c4c4c4;
+	position: absolute;
+	top: 97px;
+	left: 294px;
+	width: 180px;
+	line-height: 36px;
+	text-align: center;
+}
+.bq {
+	width: 912px;
+	height: 918px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -409px 0 0 -406px;
+	opacity: 0;
+	display: none;
+}
+.bq img {
+	width: 100%;
+	height: 100%;
+}
+.bq .text {
+	display: block;
+	width: 192px;
+	height: 157px;
+	position: absolute;
+	top: -100px;
+	left: 94px;
+	background: url(../images/yy.gif) no-repeat;
+}
+.totalBar {
+	height: 60px;
+	background: #fff;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+.totalBar-content {
+	width: 800px;
+	margin: 0px auto;
+	height: 60px;
+	font-size: 28px;
+	color: #5a8ff1;
+	line-height: 60px;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.totalBar-content span {
+	margin: 0 10px;
+}
+.share a {
+	display: block;
+	float: left;
+	width: 40px;
+	height: 40px;
+	margin: 10px 10px 0 0;
+	background: url(../images/wb.gif) no-repeat;
+	overflow: hidden;
+}
+a.qzone {
+	background-position: 0 0;
+}
+a.wx {
+	background-position: -53px 0;
+}
+a.txwb {
+	background-position: -100px 0;
+}
+a.sinawb {
+	background-position: -149px 0;
+}
+a.renren {
+	background-position: -204px 0;
+	margin-right: 0;
+}
+.innerPage #hotTag {
+	padding: 40px 0;
+	width: 682px;
+	margin: 0 auto;
+}
+#hotTag h4 {
+	font-size: 30px;
+	color: #427fef;
+	margin-bottom: 20px;
+	font-weight: normal;
+}
+#share span {
+	display: block!important;
+	height: 40px!important;
+	width: 40px!important;
+	line-height: 40px!important;
+	background: none!important;
+	cursor: pointer;
+	padding-left: 0!important;
+	margin: 0;
+}
+.shares{position: absolute;left: -100px;top: -100px;color: #fff;background: #fff;}
+.shares a{color: #fff;}

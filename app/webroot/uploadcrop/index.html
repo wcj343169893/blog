@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="jQuery仿QQ文件上传+Jcrop照片剪裁插件" />
+<meta name="keywords" content="朝军的博客,php博客,web前端,css,JavaScript,jQuery,插件,Jcrop,demo页面,学习" />
+<meta name="author" content="朝军" />
+<title>jQuery仿QQ Ajax上传文件+Jcrop照片剪裁插件</title>
+<style type="">
+ul,li{list-style: none;}
+</style>
+<link rel="stylesheet" type="text/css" href="/uploadcrop/css/open_platform.css" />
+<link rel="stylesheet" type="text/css" href="/uploadcrop/css/open_qq_agreement.css" />
+<link rel="stylesheet" type="text/css" href="/uploadcrop/css/confirm_by_dialog.css" />
+<link rel="stylesheet" type="text/css" href="/uploadcrop/css/smoothness/jquery-ui-1.9.0.custom.min.css" />
+<script type="text/javascript"  src="/uploadcrop/js/jquery.js"></script>
+<script type="text/javascript"  src="/uploadcrop/js/jquery-ui-1.9.0.custom.min.js"></script>
+<script type="text/javascript"  src="/uploadcrop/js/qzfl_for_qzone.js"></script>
+<script type="text/javascript"  src="/uploadcrop/js/open_v2.js"></script>
+<script type="text/javascript"  src="/uploadcrop/js/fileupload.js"></script>
+<script type="text/javascript" >
+$(document).ready(function(){
+	//图标上传
+	$(".file_icon_upload_btn").click(function(){
+	    var post_url ="uploadify.json?type=icon",
+	    desc="选择一个255x255，大小1MB以内，png/jpg 格式的图片",
+	    pf_id=1,_flag="255_255",_size=1024*1024;
+	    var _this=$(this);
+		  OP_COMMON.upload.showUpload(post_url, 
+		            function(ret) {
+			  		//上传回调函数//
+			  		$("#icon_img").attr("src",ret.filePath);
+		            $(_this).val("更改");
+		            },
+		            desc, _size, false,_flag, {
+		                customContent: '<input type="hidden" name="pf" value="' + pf_id + '" />'
+		            });
+	});
+});
+</script>
+<base href="/uploadcrop/">
+</head>
+<body>
+<div class="zxx_out_box">
+    <div class="zxx_in_box">
+        <h1 class="zxx_title">jQuery仿QQ Ajax上传文件+Jcrop照片剪裁插件</h1>
+        <div class="zxx_main_con">
+        	<div class="zxx_test_list">
+        		<div class="div_btn img_upload_panel">
+					<input type="hidden" name="face_path" value="" />
+					<p class="pic" >
+						<img src="image/default_100.jpg" id="icon_img" />
+					</p>
+					<div class="clear"></div> 
+        		<br />
+        		<p><input type="button" value="上传图片" class="file_icon_upload_btn"/></p>
+        		<br />
+        		</div>
+        		<h3>示例截图</h3>
+        		<ul>
+        			<li><img src="image/01.png" alt="上传窗口" /></li>
+        			<li><img src="image/02.png" alt="错误提示窗口" /></li>
+        			<li><img src="image/03.png" alt="裁剪图片窗口" /></li>
+        		</ul>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F8bb0922290ec926c1bf2d71e9df0e0fb' type='text/javascript'%3E%3C/script%3E"));
+</script>
+</body>
+</html>

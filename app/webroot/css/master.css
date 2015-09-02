@@ -1,0 +1,111 @@
+@charset "utf-8";
+/* 
+CSS Document
+Author:Yang
+QQ:280731718
+*/
+body{ font-size:12px;}
+
+
+/*list*/
+.list_area{ width:752px; height:620px; overflow:hidden;position: relative; }
+.list_area .list{ background:url(http://file2.mofing.com/images/200905/bg/list_bg.png) no-repeat; width:590px; padding:0 80px 0 82px; height:236px; margin:40px 0 20px 0; overflow:hidden; float:left;}
+.list_area .list .t{font:18px/45px "Microsoft YaHei"; padding:45px 0 0 0; color:#fff;}
+.time{ position:absolute; right:70px; top:25px; width:155px; height:43px; background:url(http://file2.mofing.com/images/200905/bg/time_bg.png) no-repeat; font:16px/40px "Microsoft YaHei";   color:#1cbdc5; text-align:center;}
+.list_area .cont{ line-height:22px; font-size:12px; color:#ededed;height: 88px;overflow: hidden;margin-bottom: 6px;}
+.list_area .cont a,.list_area .list .t a{color:#fff; text-decoration:none;}
+.list_area .cont a:hover,.list_area .article a:hover,.list_area .list .t a:hover{color:#1cbdc5; background:#fff;  border-radius:5px;}
+.list_area .article{ font:12px/20px normal; color:white;}
+.list_area .article span{ width:auto; float:left;}
+.list_area .article a{ text-decoration:none; color:white; padding:2px 10px;margin:0px 2px;; display:block; float:left;}
+
+
+/*about link content bg*/
+.c_cont{ background:url(http://file2.mofing.com/images/200905/bg/c_bg.png) no-repeat; width:718px; height:469px; margin:120px 0 0 80px;}
+.c_t{font-size:14px; color:#666;}
+.c_cont dl{ padding:154px 0 0 188px; width:530px;}
+.c_cont dd{ margin-top:30px;}
+.c_cont dd p{ line-height:30px;}
+
+
+/*友情链接*/
+.link{padding:155px 0 0 188px;  width:410px; overflow:hidden;}
+.link_cont{ margin:10px 0 0 0; width:100%; overflow:hidden;}
+.link_cont a{ width:100px; float:left; font-size:12px; line-height:25px; text-decoration:none; color:#1cbdc5; display:block;}
+.link_cont a:hover{color:#f30;}
+
+
+/*detailed*/
+.detailed{ background:url(http://file2.mofing.com/images/200905/bg/cont_bg.png) repeat-y;width:720px; margin-right:20px; height:620px; overflow:hidden; }
+.d_t{font-size:22px; line-height:50px; width:90%; margin:10px 5% 10px; text-align:center; color:#1cbdc5;}
+.detailed .info {font-size:14px; margin:5px 0 20px; text-align:center;}
+.detailed .info span {color: #666666; margin-left:18px; width: auto;}
+.detailed .info a { color: #f30; text-decoration:none;}
+
+.entry{padding-bottom:40px; }
+.entry p{ line-height:22px; color:#3f5051;}
+.entry strong{ margin-top:10px; line-height:30px;}
+
+.related{ margin-top:10px; overflow:hidden;}
+.r_t{font:16px/35px "Microsoft YaHei"; color:#1cbdc5;}
+.related dd{width:50%; float:left; line-height:22px; }
+.related dd a{font-size:12px; color:#b4a898; text-decoration:none;}
+.related dd a:hover{ color:#1cbdc5;}
+#article_list{overflow: hidden;height: 600px;}
+
+/*share*/
+.share{ padding:10px 0; overflow:hidden; text-align:center;}
+
+/*comments*/
+.comments{ overflow:hidden; padding-bottom:30px;}
+
+.pp_preview{
+	position:fixed;
+	top:150%;
+	left:50%;
+}
+.pp_preview img{
+	position:absolute;
+	top:0px;
+	left:0px;
+	border:10px solid #fff;
+	border-bottom:45px solid #fff;
+	-moz-box-shadow:1px 1px 7px #000;
+	-webkit-box-shadow:1px 1px 7px #000;
+	box-shadow:1px 1px 7px #000;
+}
+#infscr-loading{position: fixed;
+bottom: 10%;
+left: 40%;
+text-align: center;
+background: #fff;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0px 5px 20px;width: 220px;}
+.tag_wall a{display: inline-block;
+margin: 0px 6px;
+padding: 0px 4px;width: auto;}
+
+
+/* Scrollbar */
+.slyscrollbar {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	bottom: 10px;
+	width: 2px;
+	background: #eee;
+}
+.slyscrollbar .handle {
+	width: 100%;
+	height: 100px;
+	background: #1cbdc5;
+	cursor: pointer;
+}
+.slyscrollbar .handle .mousearea {
+	position: absolute;
+	top: 0;
+	left: -10px;
+	width: 22px;
+	height: 100%;
+}

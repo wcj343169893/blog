@@ -1,0 +1,133 @@
+/* 
+CSS Document
+Author:Yang
+QQ:280731718
+*/
+/*width*/
+.w				{width:100%; padding-left:0 !important; padding-right:0 !important; display:inline-block; *display:inline; *zoom:1;}
+.w_24			{width:80em;}
+
+.w90{width:90%; margin:0 5%;  }
+
+.main{ margin:0 auto; }
+.f_left{ float:left;}
+.f_right{ float:right;}
+.relative{ position:relative;}
+.t-20{margin-top:20px;}
+
+
+/*LOGO*/
+.logo_area{ width:140px;}
+.logo{ background:url(http://file2.mofing.com/images/200905/bg/logo.png) no-repeat; width:129px; height:44px; text-indent:-9999px;}
+.logo a{ display:block; width:129px; height:44px;}
+.sentence{margin:40px 0 40px 30px;}
+
+/* boby bg*/
+.bg{ background:#f4f5f5 url(http://file2.mofing.com/images/200905/bg/bg.jpg) no-repeat center top; display:block; height:100%; left:0; top:0; position:fixed; width:100%; background-size:100% 100%; z-index: -999999; 
+background-repeat:no-repeat\9;
+background-image:none\9;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./img/bg.jpg', sizingMethod='scale')\9;}
+
+/*left top box*/
+.l_t_box{ background:url(http://file2.mofing.com/images/200905/bg/yz.png) no-repeat; position:fixed; top:0px; left:0px; width:356px; height:186px;}
+
+
+/*nav*/
+.nav{ position:fixed; top:0px; right:0px; background:#1cbdc5; width:113px; height:100%;}
+.nav  ul{ margin-top:130px;}
+.nav a{ color:#fff; text-align:center; text-decoration:none; margin:15px 0; height:80px; padding:10px 0; display:block; transform-style: preserve-3d;  perspective: 1000px;}
+.nav .n_01,.nav .n_02,.nav .n_03,.nav .n_04{ background:url(http://file2.mofing.com/images/200905/bg/nav_icon.png) no-repeat; width:53px; height:53px; display:block; margin:0 30px;}
+.nav .n1:hover span,.nav .n2:hover span,.nav .n3:hover span,.nav .n4:hover span,.nav .n1.cu span,.nav .n2.cu span,.nav .n3.cu span,.nav .n4.cu span{ background:url(http://file2.mofing.com/images/200905/bg/nav_icon_h.png) no-repeat; width:53px; height:53px; display:block; margin:0 30px;}
+.nav .n_01{ background-position:0px 0px;}
+.nav .n_02{ background-position:0px -53px;}
+.nav .n_03{ background-position:0px -106px;}
+.nav .n_04{ background-position:0px -159px;}
+.nav-t{ line-height:27px;}
+.nav-t:hover{color:#7beaef;}
+.nav .n1:hover span,.nav .n1.cu span{ background-position:0px 0px; }
+.nav .n2:hover span,.nav .n2.cu span{ background-position:0px -53px; }
+.nav .n3:hover span,.nav .n3.cu span{ background-position:0px -106px; }
+.nav .n4:hover span,.nav .n4.cu span{ background-position:0px -159px; }
+
+.nav .n1.cu h4,.nav .n2.cu h4,.nav .n3.cu h4,.nav .n4.cu h4{color:#7beaef;}
+
+
+.nav a span{ 
+transition:transform 1s ease-in 0s, top 1s ease-out 1s;
+transition: -ms-transform 1s ease-in 0s, top 1s ease-out 1s;
+transition: -webkit-transform 1s ease-in 0s, top 1s ease-out 1s;
+transition: -o-transform 1s ease-in 0s, top 1s ease-out 1s;
+transition: -moz-transform 1s ease-in 0s, top 1s ease-out 1s;
+
+
+}
+.nav a:hover span{
+	transform: rotateY(360deg);
+-ms-transform: rotateY(360deg);		/* IE 9 */
+-webkit-transform: rotateY(360deg);	/* Safari and Chrome */
+-o-transform: rotateY(360deg);		/* Opera */
+-moz-transform: rotateY(360deg);		/* Firefox */ }
+
+.nav a.cu span{
+-ms-animation: zhuan 2s 0.5s infinite linear forwards;
+-o-animation: zhuan 2s 0.5s infinite linear forwards;
+-webkit-animation: zhuan 2s 0.5s infinite linear forwards;
+-moz-animation: zhuan 2s 0.5s infinite linear forwards;}
+
+@-moz-keyframes zhuan{25%{-moz-transform: rotateY(90deg);}
+50%{-moz-transform: rotateY(180deg);}
+100%{-moz-transform: rotateY(360deg);}}
+@-webkit-keyframes zhuan{25%{-webkit-transform: rotateY(90deg);}
+50%{-webkit-transform: rotateY(180deg);}
+100%{-webkit-transform: rotateY(360deg);}}
+@-ms-keyframes zhuan{25%{-ms-transform: rotateY(90deg);}
+50%{-ms-transform: rotateY(180deg);}
+100%{-ms-transform: rotateY(360deg);}}
+@-o-keyframes zhuan{25%{-o-transform: rotateY(90deg);}
+50%{-o-transform: rotateY(180deg);}
+100%{-o-transform: rotateY(360deg);}}
+
+
+
+/*tags*/
+.tags{position:fixed; bottom:10px; left:10px; background:#1cbdc5; width:auto; height:45px; z-index:99;}
+.tags a{ display:block; float:left; color:#fff; font:14px/25px "Microsoft YaHei" ; text-decoration:none; margin:10px 5px; padding:0 10px;}
+.tags a:hover{ background:#f85b76;
+transform: rotate(20deg);
+-ms-transform: rotate(20deg);		
+-webkit-transform: rotate(20deg);	
+-o-transform: rotate(20deg);		
+-moz-transform: rotate(20deg);	}
+
+/*footer*/
+.footer{ position:fixed; bottom:10px; left:0; width:100%; z-index:98; }
+.footer p{font:12px/30px "Microsoft YaHei"; text-align:center; color:#b4a898;}
+
+
+/*back top*/
+.backtrack{width:29px; height:65px;  position:absolute; top:540px; right:-20px; z-index:999;}
+.backtrack a{width:29px; height:65px; display:block; background:url(http://file2.mofing.com/images/200905/bg/h.png) no-repeat; background-position:0px 0px; 
+-ms-animation: top 2s 0.5s infinite linear forwards;
+-o-animation: top 2s 0.5s infinite linear forwards;
+-webkit-animation: top 2s 0.5s infinite linear forwards;
+-moz-animation: top 2s 0.5s infinite linear forwards;
+
+ }
+.backtrack a:hover{ background:url(http://file2.mofing.com/images/200905/bg/h.png) no-repeat; background-position:0px -65px;}
+
+@-webkit-keyframes top{25%{-webkit-transform:translateY(-10px)}
+50%{-webkit-transform:translateY(0)}
+75%{-webkit-transform:translateY(20px)}
+100%{-webkit-transform:translateY(0)}}
+@-moz-keyframes top{25%{-moz-transform:translateY(-10px)}
+50%{-moz-transform:translateY(0)}
+75%{-moz-transform:translateY(10px)}
+100%{-moz-transform:translateY(0)}}
+@-ms-keyframes top{25%{-ms-transform:translateY(-10px)}
+50%{-ms-transform:translateY(0)}
+75%{-ms-transform:translateY(20px)}
+100%{-ms-transform:translateY(0)}}
+@-o-keyframes top{25%{-o-transform:translateY(-10px)}
+50%{-o-transform:translateY(0)}
+75%{-o-transform:translateY(10px)}
+100%{-o-transform:translateY(0)}}

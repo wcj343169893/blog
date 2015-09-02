@@ -1,0 +1,123 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<html class=" ext-strict x-viewport">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>JSON在线视图查看器(Online JSON Viewer)附带Google云采集功能</title>
+<meta name="keywords" content="JSON在线视图查看器(Online JSON Viewer),在线获取json数据,json格式化,json视图"/>
+<meta name="description" content="JSON在线视图查看器(Online JSON Viewer)，支持在线获取json数据，一键格式化，boss再也不用担心我的json啦">
+<link rel="stylesheet" type="text/css" href="/json/css/ext-all.css">
+<link rel="stylesheet" type="text/css" href="/json/css/xtheme-gray.css">
+<script type="text/javascript" src="/json/js/ext-base.js"></script>
+<script type="text/javascript" src="/json/js/ext-all.js"></script>
+<script type="text/javascript" src="/json/js/clipboard.js"></script>
+<script type="text/javascript" src="/json/js/jsonviewercn.js"></script>
+<style type="text/css" id="styleSheetIconCls">
+/* Ext.ux.iconCls */
+</style>
+<style type="text/css">
+.br0 {	COLOR: #009900 }.st0 {	COLOR: #3366cc}.sy0 {	COLOR: #339933}.about{display: none;}
+</style>
+<meta name="GENERATOR" content="MSHTML 8.00.6001.18702">
+<meta name="chromesniffer" id="chromesniffer_meta" content="ExtJS=2.2&amp;">
+<base href="/json/">
+</head>
+<body class=" ext-safari" id="ext-gen9">
+<div class="notice_b">
+	<ul>
+		<li>视图</li>
+		<li>JSON数据
+			<ul>
+				<li>获取网络json</li>
+				<li>粘贴</li>
+				<li>复制</li>
+				<li>格式化</li>
+				<li>删除空格</li>
+				<li>删除空格并转义</li>
+				<li><a href="http://www.choujone.com/" title="回到首页">回到首页</a></li>
+				<li>关于</li>
+			</ul>
+		</li>
+	</ul>
+</div>
+<div class="about">
+<h1>Online JSON Viewer</h1>
+<div class="tab">
+	<h2>About JSON</h2>
+	<div>
+		<b>JSON</b>, short for <b>JavaScript Object Notation</b>, is a lightweight computer data interchange format. It is a text-based, human-readable format for representing simple data structures and associative arrays (called objects).<br>
+		<br>
+		Read more: <a href="http://json.org/" target="_blank">json.org</a>, 
+		<a href="http://en.wikipedia.org/wiki/JSON" target="_blank">wikipedia</a>, 
+		<a href="http://www.google.com/search?q=json" target="_blank">google</a>,
+		<a href="http://www.choujone.com/tag.jsp?t=json" target="_blank">朝军的博客</a><br>
+		<br>
+		<img alt="JSON object" src="img/about/object.gif" width="598" height="113"><br>
+		<br>
+		<img alt="JSON array" src="img/about/array.gif" width="598" height="113"><br>
+		<br>
+		<img alt="JSON array" src="img/about/value.gif" width="598" height="278"><br>
+		<br>
+		<img alt="JSON array" src="img/about/string.gif" width="598" height="413"><br>
+		<br>
+		<img alt="JSON array" src="img/about/number.gif" width="598" height="266">
+	</div>
+</div>
+<div class="tab">
+	<h2>Example</h2>
+	<div>
+		<span class="br0">{</span><span class="st0">"firstName"</span><span class="sy0">:</span><span class="st0">"John"</span><span class="sy0">,</span><span class="st0">"lastName"</span><span class="sy0">:</span><span class="st0">"Smith"</span><span class="sy0">,</span><span class="st0">"address"</span><span class="sy0">:</span><span class="br0">{</span><span class="st0">"streetAddress"</span><span class="sy0">:</span><span class="st0">"21 2nd Street"</span><span class="sy0">,</span><span class="st0">"city"</span><span class="sy0">:</span><span class="st0">"New York"</span><span class="sy0">,</span><span class="st0">"state"</span><span class="sy0">:</span><span class="st0">"NY"</span><span class="sy0">,</span><span class="st0">"postalCode"</span><span class="sy0">:</span><span class="st0">"10021"</span><span class="br0">}</span><span class="sy0">,</span><span class="st0">"phoneNumbers"</span><span class="sy0">:</span><span class="br0">[</span><span class="br0">{</span><span class="st0">"type"</span><span class="sy0">:</span><span class="st0">"home"</span><span class="sy0">,</span><span class="st0">"number"</span><span class="sy0">:</span><span class="st0">"212 555-1234"</span><span class="br0">}</span><span class="sy0">,</span><span class="br0">{</span><span class="st0">"type"</span><span class="sy0">:</span><span class="st0">"fax"</span><span class="sy0">,</span><span class="st0">"number"</span><span class="sy0">:</span><span class="st0">"646 555-4567"</span><span class="br0">}</span><span class="br0">]</span><span class="br0">}</span>
+	</div>
+</div>
+<div class="tab">
+	<h2>About Online JSON Viewer</h2>
+	<div>
+		The application using <a href="http://extjs.com/" target="_blank">Ext JS</a>.<br>
+		Author: {gabor}<br>
+		2009.
+	</div>
+</div>
+</div>
+<div id="ext-comp-1001" class="x-tip" style="position: absolute; z-index: 20000; visibility: hidden; display: none; ">
+	<div class="x-tip-tl">
+		<div class="x-tip-tr">
+			<div class="x-tip-tc">
+				<div class="x-tip-header x-unselectable" id="ext-gen10" style="-webkit-user-select: none; ">
+					<span class="x-tip-header-text"></span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="x-tip-bwrap" id="ext-gen11">
+		<div class="x-tip-ml">
+			<div class="x-tip-mr">
+				<div class="x-tip-mc">
+					<div class="x-tip-body" id="ext-gen12" style="height: auto; ">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="x-tip-bl x-panel-nofooter">
+			<div class="x-tip-br">
+				<div class="x-tip-bc">
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="notice_b">
+<div><a href="http://www.choujone.com" target="_blank" title="返回首页">返回首页</a></div>
+<div>获取网络json数据<br/>请输入Json网络地址:<br/>
+	<span style="color:red;">例如：</span>http://www.choujone.com/test.json<br/>
+	<span style="color:red;">注意：</span>此数据是Google云服务器采集，请不要输入您的本地或者局域网json地址，如果长时间没有动静，请刷新重试<br/>
+	<span style="color:red;">申明：</span>本站绝对不保留您的任何json数据，请放心使用</div>
+</div>
+<select class="x-grid-editor x-hide-display">
+	<option value="true">true</option>
+	<option value="false">false</option>
+</select>
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F8bb0922290ec926c1bf2d71e9df0e0fb' type='text/javascript'%3E%3C/script%3E"));
+</script>
+</body>
+</html>

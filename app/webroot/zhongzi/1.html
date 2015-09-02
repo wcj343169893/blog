@@ -1,0 +1,131 @@
+
+<!doctype html>
+<html lang="zh-cn">
+<head>
+<meta charset="utf-8">
+<title>百度种子</title>
+<link type="text/css" href="css/style.css" rel="stylesheet" />
+</head>
+
+<body class="innerPage">
+<div id="wrap">
+<h1><img src="images/title.gif" width="393" height="65" alt=""></h1>
+<div id="fm">
+	<span class="fmLogo"><img src="images/bdlogo1.gif" width="123" height="40" alt=""></span>
+    <form id="form1" name="f1" action="" class="fm">
+      <span class="bg s_ipt_wr">
+      	<input type="text" name="wd" id="kw1" maxlength="100" class="s_ipt" autocomplete="off">
+      </span>
+      <input type="hidden" name="rsv_bp" value="0">
+      <input type="hidden" name="ch" value="">
+      <input type="hidden" name="tn" value="baidu">
+      <input type="hidden" name="bar" value="">
+      <input type="hidden" name="rsv_spt" value="3">
+      <input type="hidden" name="ie" value="utf-8">
+      <span class="bg s_btn_wr">
+      <input type="submit" value="百度一下" id="su1" onClick="targetTo()" class="bg s_btn" onMouseDown="this.className='bg s_btn s_btn_h'" onMouseOut="this.className='bg s_btn'">
+      </span>
+    </form>
+  </div>
+<h3>恭喜您，为您找到番号 <span id="searchText">TJ250</span> 的种子</h3>
+<div class="searchResult" style="height:410px;">
+	<div class="xf"><img src="images/kd.gif" width="468" height="359" alt=""><span class="xfResult">TJ250</span></div>
+    <div class="bq"><img src="images/bq1.gif" id="bq" width="100%" height="100%" alt=""></div>
+</div>
+<div class="totalBar">
+	<div class="totalBar-content">
+    	<div class="fl">
+        	<img src="images/t1.gif" align="left" width="58" height="60" alt="">
+        	<span class="fl">16327629 </span>
+            <img src="images/t2.gif" align="left" width="348" height="60" alt="">
+        </div>
+        <div class="shares"><a href="http://www.choujone.com/" title="返回首页">返回首页</a></div>
+    	<div class="jiathis_style_24x24 fr share" id="share">
+        	<a target="_blank" class="jiathis_button_qzone qzone" title="分享到QQ空间"></a>
+        	<a target="_blank" class="jiathis_button_tsina sinawb" title="分享到新浪微博"></a>
+            <a target="_blank" class="jiathis_button_tqq txwb" title="分享到腾讯微博"></a>
+            <a target="_blank" class="jiathis_button_weixin wx" title="分享到微信"></a>
+            <a target="_blank" class="jiathis_button_renren renren" title="分享到人人网"></a>
+        </div>
+        <script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
+    	<script type="text/javascript" >
+		var jiathis_config={
+			url:"http://t.cn/8spixmL",
+			summary:"还在上caoliu？你out拉！百度种子搜索，海量高清无码，一般人我不告诉他！温馨提示：看片有风险，纸巾需自备",
+        	title:"【百度攻城湿1024行代码打造史上最全种子搜索，内测版遭基友泄露】",
+			showClose:true,
+			shortUrl:false,
+			hideMore:false,
+			pic:'http://huodong.baidu.com/zhongzi/images/ce.png'
+		}
+		</script>
+    </div>
+</div>
+</div>
+
+<script src="/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript">
+function targetTo(){
+	var re = /.?\d.?/;
+	var val = document.getElementById("kw1").value;
+	if(val == ""){
+		return false;	
+	}
+	if(re.test(val)){
+		document.forms['form1'].action = '1.html';
+	}
+	else {
+		document.forms['form1'].action = '2.html';
+	}
+}
+function getQueryStringByName(name) {
+    var result = location.search.match(new RegExp("[\?\&]" + name + "=([^\&]+)", "i"));
+    if (result == null || result.length < 1) {
+        return "";
+    }
+    return decodeURIComponent(result[1]);
+}
+function shake(o){
+    var $panel = $("#"+o);
+    $panel.css({'padding-left':'20px'});
+    for(var i=1; 4>=i; i++){
+        $panel.animate({'padding-left':(20-5*i)},20);
+        $panel.animate({'padding-left':2*(20-5*i)},20);
+    }
+}
+$(function(){
+	var num = Math.floor(Math.random()*9+1);
+	var searchTxt = getQueryStringByName("wd");
+	
+	searchTxt = searchTxt.length>7?searchTxt.substring(0,7)+"...":searchTxt;
+	
+	$("#bq").attr("src","images/bq"+ num +".gif");
+
+	$("#searchText").html(searchTxt);
+	$(".xfResult").html(searchTxt);
+	$("#kw1").val(searchTxt);
+	
+	
+	
+	$(".bq").show().animate({
+		"width": "304px",
+		"height": "306px",
+		"left": "460px",
+		"top": "104px",
+		"margin-left": 0,
+		"margin-top": 0,
+		"opacity": 1	
+	},500);
+	
+	setTimeout(function(){
+		shake('wrap')
+	},500)
+	
+})
+</script>
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F8bb0922290ec926c1bf2d71e9df0e0fb' type='text/javascript'%3E%3C/script%3E"));
+</script>
+</body>
+</html>

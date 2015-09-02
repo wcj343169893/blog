@@ -1,0 +1,10 @@
+<IfModule mod_rewrite.c>
+   RewriteEngine on
+RewriteRule ^/?$ /index.php [L]
+RewriteRule ^(json|responsivewebdesign|uploadcrop|zhongzi|hongbao)?$ /$1/index.html [L] 
+RewriteRule ^(json|responsivewebdesign|uploadcrop|zhongzi|hongbao)(.*)$ /$1$2 [L] 
+RewriteRule ^(img|css|files|js)(.*)$ /app/webroot/$1$2 [L]
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ /index.php?REQUEST_URI=$1        [L]
+</IfModule>

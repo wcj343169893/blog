@@ -1,0 +1,1367 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: api\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-09-02 10:41+0800\n"
+"PO-Revision-Date: 2015-09-02 10:41+0800\n"
+"Last-Translator: wenchaojun <wcj343169893@163.com>\n"
+"Language-Team: 10000-e\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-Basepath: ..\\..\\..\\\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.8.1\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: Plugin/Admin/View/Layouts/default.ctp:20
+#: Plugin/Admin/View/Layouts/default.ctp:49
+msgid "Admin"
+msgstr "管理中心"
+
+#: Plugin/Admin/View/Layouts/default.ctp:85
+msgid "Visit Site"
+msgstr "访问网站"
+
+#: Plugin/Admin/View/Layouts/default.ctp:86
+msgid "Logout"
+msgstr "退出"
+
+#~ msgid "Preschool"
+#~ msgstr "幼儿教育"
+
+#~ msgid "Primary school"
+#~ msgstr "小学教育"
+
+#~ msgid "Study"
+#~ msgstr "初中高中"
+
+#~ msgid "Education"
+#~ msgstr "高等教育"
+
+#~ msgid "Mofing App"
+#~ msgstr "木丰应用"
+
+#~ msgid "About"
+#~ msgstr "关于我们"
+
+#~ msgid "Legal"
+#~ msgstr "法律申明"
+
+#~ msgid "FAQS"
+#~ msgstr "常见问题"
+
+#~ msgid "Rankings"
+#~ msgstr "排行榜"
+
+#~ msgid "Game"
+#~ msgstr "游戏应用"
+
+#~ msgid "Categorys"
+#~ msgstr "应用分类"
+
+#~ msgid "Book"
+#~ msgstr "图书应用"
+
+#~ msgid "VIP"
+#~ msgstr "会员专区"
+
+#~ msgid "The application will soon be downloaded to your device"
+#~ msgstr "该应用已推送至您的设备，请前往【礼包专区】选择<即刻安装>"
+
+#~ msgid "Reinstall successful application, the application will soon be downloaded to your device"
+#~ msgstr "该应用已重新推送至您的设备，请前往【礼包专区】选择<即刻安装>"
+
+#~ msgid "Install Application Failed"
+#~ msgstr "安装应用失败"
+
+#~ msgid "You are not Mofing Member, no permissions to install this application, <a href='http://vip.mofing.com' target='_blank'>became a Member now</ a>"
+#~ msgstr "您还不是VIP,无权限安装此应用, <a href='http://vip.mofing.com' target='_blank'>立刻成为会员</ a>"
+
+#~ msgid "Installation fails, you are not entitled to apply for this package,<a href='http://vip.mofing.com' target='_blank'>became a Member now</a>"
+#~ msgstr "安装失败，您无权领取此礼包应用 <a href='http://vip.mofing.com' target='_blank'>立刻成为会员</ a>"
+
+#~ msgid "Installation fails, account balance is not enough,please <a href='javascript:void(0);' target='_blank' class='mofing_pay_recharge'>recharge</a>"
+#~ msgstr "推送失败，您的账户魔豆不足，请<a href='javascript:void(0);' target='_blank' class='mofing_pay_recharge'>购买魔币</a>"
+
+#~ msgid "Redirecting"
+#~ msgstr "跳转中"
+
+#~ msgid "Completed"
+#~ msgstr "完成"
+
+#~ msgid "Downloading"
+#~ msgstr "正在下载"
+
+#~ msgid "Creating"
+#~ msgstr "正在创建"
+
+#~ msgid "Download failure"
+#~ msgstr "下载失败"
+
+#~ msgid "Mofing VIP Gift"
+#~ msgstr "会员大礼包"
+
+#~ msgid "Not Found"
+#~ msgstr "您访问的页面不存在"
+
+#~ msgid "Verification code input errors"
+#~ msgstr "验证码输入错误"
+
+#~ msgid "Please Login"
+#~ msgstr "请登录"
+
+#~ msgid "Title can not empty"
+#~ msgstr "标题不能为空"
+
+#~ msgid "Upload Success"
+#~ msgstr "上传成功"
+
+#~ msgid "info"
+#~ msgstr "信息"
+
+#~ msgid "error"
+#~ msgstr "错误"
+
+#~ msgid "Account balance is insufficient"
+#~ msgstr "余额不足，请充值"
+
+#~ msgid "success"
+#~ msgstr "成功"
+
+#~ msgid "The successful purchaser"
+#~ msgstr "购买成功"
+
+#~ msgid "Cart"
+#~ msgstr "购物车"
+
+#~ msgid "Add Advertise"
+#~ msgstr "增加广告"
+
+#~ msgid "File upload directory does not exist and can not create file upload directory"
+#~ msgstr "文件上传目录不存在，无法创建文件上传目录"
+
+#~ msgid "Copying files failed, please re-upload"
+#~ msgstr "复制文件失败，请重新上传"
+
+#~ msgid "Image size must be %s, please re-upload"
+#~ msgstr "图片尺寸必须为%s，请重新上传"
+
+#~ msgid "Upload the file size exceeds the specified size"
+#~ msgstr "上传文件的大小超过指定大小"
+
+#~ msgid "Please select upload file"
+#~ msgstr "请选择上传文件"
+
+#~ msgid "Please upload the file types to meet the requirements of the"
+#~ msgstr "请上传正确类型的文件"
+
+#~ msgid "uploaded successfully"
+#~ msgstr "上传成功"
+
+#~ msgid "save successfully"
+#~ msgstr "保存成功"
+
+#~ msgid "email:%s ,secureKey:%s ,serials:%s "
+#~ msgstr "邮件:%s ,密匙:%s ,序列号:%s "
+
+#~ msgid "Here are your serial numbers"
+#~ msgstr "下面是您购买的序列号"
+
+#~ msgid "numbers %s : %s \n"
+#~ msgstr "号码  %s : %s \n"
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "Note:\n"
+#~ " 1: Do not leak\n"
+#~ " 2: The serial number is only to activate Mofing system\n"
+#~ " 3: Do not reply\n"
+#~ "\n"
+#~ " Thank you for your purchase, always welcome"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "注意:\n"
+#~ " 1: 请不要泄露序列号\n"
+#~ " 2: 这个序列号仅用来激活Mofing系统\n"
+#~ " 3: 请不要回复邮件\n"
+#~ "\n"
+#~ "感谢您购买，欢迎再次光临."
+
+#~ msgid "Serial numbers"
+#~ msgstr "序列号"
+
+#~ msgid "Your account does not have access."
+#~ msgstr "您的帐户没有访问权限"
+
+#~ msgid "Success"
+#~ msgstr "成功"
+
+#~ msgid "Please enter the correct nickname!"
+#~ msgstr "请输入正确的昵称!"
+
+#~ msgid "6 to 16 characters, available in English, numbers, underscores, and can not be modified"
+#~ msgstr "6~12个字符，可用中英文、数字、下划线，不可修改"
+
+#~ msgid "Please enter the correct password!"
+#~ msgstr "请输入正确的密码!"
+
+#~ msgid "6-16 characters, use lower-case letters and numbers"
+#~ msgstr "6-16个字符，请使用小写字母、数字"
+
+#~ msgid "Please enter the correct Confirm Password!"
+#~ msgstr "请输入正确的确认密码!"
+
+#~ msgid "Two passwords do not match!"
+#~ msgstr "两次密码不一致!"
+
+#~ msgid "E-mail format is incorrect!"
+#~ msgstr "邮箱格式不正确!"
+
+#~ msgid "Example: sample@admin.com"
+#~ msgstr "示例:sample@admin.com"
+
+#~ msgid "Exam"
+#~ msgstr "考试"
+
+#~ msgid "%d year"
+#~ msgstr "%d年"
+
+#~ msgid "%d years"
+#~ msgstr "%d年"
+
+#~ msgid "%d month"
+#~ msgstr "%d个月"
+
+#~ msgid "%d months"
+#~ msgstr "%d个月"
+
+#~ msgid "%d week"
+#~ msgstr "%d周"
+
+#~ msgid "%d weeks"
+#~ msgstr "%d周"
+
+#~ msgid "%d day"
+#~ msgstr "%d天"
+
+#~ msgid "%d days"
+#~ msgstr "%d天"
+
+#~ msgid "%d hour"
+#~ msgstr "%d小时"
+
+#~ msgid "%d hours"
+#~ msgstr "%d小时"
+
+#~ msgid "%d minute"
+#~ msgstr "%d分"
+
+#~ msgid "%d minutes"
+#~ msgstr "%d分"
+
+#~ msgid "%d second"
+#~ msgstr "%d秒"
+
+#~ msgid "%d seconds"
+#~ msgstr "%d秒"
+
+#~ msgid "Please select an answer"
+#~ msgstr "请选择答案"
+
+#~ msgid "You are not authorized to access that location."
+#~ msgstr "请登录"
+
+#~ msgid "Invalid PaypalItem."
+#~ msgstr "无效的PaypalItem。"
+
+#~ msgid "The PaypalItem has been saved"
+#~ msgstr "PaypalItem 已保存"
+
+#~ msgid "The PaypalItem could not be saved. Please, try again."
+#~ msgstr "PaypalItem 保存失败，请重试"
+
+#~ msgid "Invalid id for PaypalItem"
+#~ msgstr "PaypalItem的ID无效"
+
+#~ msgid "PaypalItem deleted"
+#~ msgstr "PaypalItem 已删除"
+
+#~ msgid "Mofing Developer Center"
+#~ msgstr "Mofing 开发者中心"
+
+#~ msgid "Save Success"
+#~ msgstr "保存成功"
+
+#~ msgid "Error"
+#~ msgstr "错误"
+
+#~ msgid "Successful registration,Signing..."
+#~ msgstr "恭喜您注册成功,正在努力登录中..."
+
+#~ msgid "Ok"
+#~ msgstr "成功 "
+
+#~ msgid "Check username failed"
+#~ msgstr "检查用户名失败"
+
+#~ msgid "Username badword"
+#~ msgstr "用户名含有敏感字"
+
+#~ msgid "Username exists"
+#~ msgstr "用户名存在"
+
+#~ msgid "Email format illegal"
+#~ msgstr "用户的电子邮件格式不合法"
+
+#~ msgid "Email access illegal"
+#~ msgstr "用户电子邮件非法"
+
+#~ msgid "Email exists"
+#~ msgstr "邮箱已经存在"
+
+#~ msgid "Two passwords do not match"
+#~ msgstr "两次密码不一致!"
+
+#~ msgid "Account has bind other equipment"
+#~ msgstr "帐户已经绑定其他设备"
+
+#~ msgid "device has been registered by different email address"
+#~ msgstr "设备已经绑定了其他账号"
+
+#~ msgid "The account no binding equipment"
+#~ msgstr "账户还没有绑定设备"
+
+#~ msgid "email or password is incorrect"
+#~ msgstr "邮箱或密码不正确"
+
+#~ msgid "Account not active"
+#~ msgstr "账号还没有激活"
+
+#~ msgid "Original password input error"
+#~ msgstr "原密码输入错误"
+
+#~ msgid "New password, consistent with the original password"
+#~ msgstr "新密码原密码相同"
+
+#~ msgid "Account must be children"
+#~ msgstr "账号必须是儿童"
+
+#~ msgid "Account does not exist"
+#~ msgstr "用户不存在"
+
+#~ msgid "Account has been bound"
+#~ msgstr "帐户已经绑定"
+
+#~ msgid "Has bound three devices, can not bind"
+#~ msgstr "您已经绑定了三台设备，不能再绑定了"
+
+#~ msgid "Unaudited"
+#~ msgstr "未审核"
+
+#~ msgid "Audited"
+#~ msgstr "已审核"
+
+#~ msgid "Did not pass"
+#~ msgstr "未通过"
+
+#~ msgid "Off the shelf"
+#~ msgstr "已下架"
+
+#~ msgid "Regist"
+#~ msgstr "免费注册"
+
+#~ msgid "Please enter the Verification code"
+#~ msgstr "请输入验证码"
+
+#~ msgid "Verification code"
+#~ msgstr "验证码"
+
+#~ msgid "Click the refresh verification code"
+#~ msgstr "点击刷新验证码"
+
+#~ msgid "Please enter the Confirm Password"
+#~ msgstr "请输入确认密码"
+
+#~ msgid "Please enter the Password"
+#~ msgstr "请输入密码"
+
+#~ msgid "Please enter the UserName"
+#~ msgstr "请输入用户名"
+
+#~ msgid "Please enter the Email"
+#~ msgstr "请输入邮箱"
+
+#~ msgid "Please enter the NikeName"
+#~ msgstr "请输入昵称"
+
+#~ msgid "Please enter the MSN"
+#~ msgstr "请输入MSN"
+
+#~ msgid "Please enter the Mobile"
+#~ msgstr "请输入手机号码"
+
+#~ msgid "'Identify unbind?'"
+#~ msgstr "'确定取消绑定?'"
+
+#~ msgid "Account Activation"
+#~ msgstr "激活帐户"
+
+#~ msgid "The user has been activated"
+#~ msgstr "用户已被激活"
+
+#~ msgid "User check username failed"
+#~ msgstr "检查用户名失败"
+
+#~ msgid "User username badword"
+#~ msgstr "用户名含有敏感字"
+
+#~ msgid "User username exists"
+#~ msgstr "用户名存在"
+
+#~ msgid "User email format illegal"
+#~ msgstr "用户的电子邮件格式不合法"
+
+#~ msgid "User email access illegal"
+#~ msgstr "用户电子邮件非法"
+
+#~ msgid "User email exists"
+#~ msgstr "邮箱已经存在"
+
+#~ msgid "Password is incorrect"
+#~ msgstr "密码不正确"
+
+#~ msgid ""
+#~ "Your Name:%s \n"
+#~ "\n"
+#~ "The password:%s \n"
+#~ "\n"
+#~ msgstr ""
+#~ "账户:%s \n"
+#~ "\n"
+#~ "密码:%s \n"
+#~ "\n"
+
+#~ msgid "Your account has been created. Please check your e-mail to view the password."
+#~ msgstr "您的帐户已创建。请检查您的电子邮件查看密码。"
+
+#~ msgid "Sign Up"
+#~ msgstr "注册"
+
+#~ msgid "You don't exist"
+#~ msgstr "用户不存在"
+
+#~ msgid "Reset Password"
+#~ msgstr "重置密码"
+
+#~ msgid "Check your email"
+#~ msgstr "邮件已经发送，请检查您的邮箱"
+
+#~ msgid "Account or Password is incorrect"
+#~ msgstr "账户或者密码不对"
+
+#~ msgid "Login"
+#~ msgstr "登录"
+
+#~ msgid "Modified successfully"
+#~ msgstr "修改成功"
+
+#~ msgid "Modify"
+#~ msgstr "修改"
+
+#~ msgid "UserInfo"
+#~ msgstr "用户信息"
+
+#~ msgid "The address has expired, Please re-Forget password"
+#~ msgstr "地址已失效，请重新找回密码"
+
+#~ msgid "Passwords cannot be empty."
+#~ msgstr "密码不能为空"
+
+#~ msgid "Your password could not be saved. Please try again."
+#~ msgstr "密码保存错误，请重试"
+
+#~ msgid "Email:%s,Device_md5:%s,Device:%s,Name:%s"
+#~ msgstr "邮件:%s ,设备MD5:%s ,设备:%s ,名称:%s "
+
+#~ msgid "Email:%s,Device:%s,Name:%s"
+#~ msgstr "邮件:%s ,设备:%s ,名称:%s "
+
+#~ msgid "Mofing Teacher"
+#~ msgstr "木丰教师"
+
+#~ msgid "Mofing School"
+#~ msgstr "木丰学校"
+
+#~ msgid "High school"
+#~ msgstr "中学教育"
+
+#~ msgid "Higher education"
+#~ msgstr "高等教育"
+
+#~ msgid "Username or password is incorrect"
+#~ msgstr "邮箱或密码不正确"
+
+#~ msgid "Add Apply"
+#~ msgstr "增加应用"
+
+#~ msgid "Apply List"
+#~ msgstr "应用列表"
+
+#~ msgid "Plural Rule 1"
+#~ msgstr "规则1"
+
+#~ msgid "Plural Rule 1 (from core)"
+#~ msgstr "规则1（核心）"
+
+#~ msgid "No Translation needed"
+#~ msgstr "不需要翻译？"
+
+#~ msgid "Required"
+#~ msgstr "需要"
+
+#~ msgid "Home"
+#~ msgstr "主页"
+
+#~ msgid "Password"
+#~ msgstr "密码"
+
+#~ msgid "Automatically logged within a week"
+#~ msgstr "一周内自动登录"
+
+#~ msgid "Forgot Password"
+#~ msgstr "忘记密码"
+
+#~ msgid "app_name"
+#~ msgstr "易万卷"
+
+#~ msgid "welcome"
+#~ msgstr "欢迎"
+
+#~ msgid "Edit My Profile"
+#~ msgstr "修改个人信息"
+
+#~ msgid "'Please enter the application name'"
+#~ msgstr "'请输入应用名'"
+
+#~ msgid "Million-e"
+#~ msgstr "易万卷"
+
+#~ msgid "Market"
+#~ msgstr "商城"
+
+#~ msgid "Help"
+#~ msgstr "帮助"
+
+#~ msgid "Popular"
+#~ msgstr "热门搜索"
+
+#~ msgid "MPKD Templates"
+#~ msgstr "MPKD 模板"
+
+#~ msgid "New"
+#~ msgstr "新建"
+
+#~ msgid "Search Online Templates"
+#~ msgstr "搜索在线模板"
+
+#~ msgid "Suggestions"
+#~ msgstr "建议搜索"
+
+#~ msgid "Resources"
+#~ msgstr "资源"
+
+#~ msgid "If you don't find the suitable template"
+#~ msgstr "没有找到你要查找的内容？"
+
+#~ msgid "please type in  a keyword  , in the search box at the top of the page "
+#~ msgstr "使用顶部搜索框搜索更多课程模板。"
+
+#~ msgid "Size"
+#~ msgstr "大小"
+
+#~ msgid "Type"
+#~ msgstr "类型"
+
+#~ msgid "Developers"
+#~ msgstr "开发者"
+
+#~ msgid "Updated"
+#~ msgstr "更新时间"
+
+#~ msgid "Version"
+#~ msgstr "应用版本"
+
+#~ msgid "System Requirements"
+#~ msgstr "兼容性"
+
+#~ msgid "Run Requirements"
+#~ msgstr "运行环境"
+
+#~ msgid "Score"
+#~ msgstr "评分"
+
+#~ msgid "Free"
+#~ msgstr "免费"
+
+#~ msgid "App Screenshots"
+#~ msgstr "应用截图"
+
+#~ msgid "Description"
+#~ msgstr "软件介绍"
+
+#~ msgid "MORE"
+#~ msgstr "更多"
+
+#~ msgid "'LESS'"
+#~ msgstr "'收起'"
+
+#~ msgid "'MORE'"
+#~ msgstr "'更多'"
+
+#~ msgid "News"
+#~ msgstr "最新动态"
+
+#~ msgid "Copyright"
+#~ msgstr "版权"
+
+#~ msgid "Update History"
+#~ msgstr "更新历史"
+
+#~ msgid "Click on the star ratings"
+#~ msgstr "点星星可进行评分"
+
+#~ msgid "Submit"
+#~ msgstr "提交"
+
+#~ msgid "'Please Login'"
+#~ msgstr "请登录"
+
+#~ msgid "Other applications"
+#~ msgstr "其他应用"
+
+#~ msgid "Related App"
+#~ msgstr "相关应用"
+
+#~ msgid "Category"
+#~ msgstr "应用分类"
+
+#~ msgid "Downloads"
+#~ msgstr "下载次数"
+
+#~ msgid "Published"
+#~ msgstr "发布时间"
+
+#~ msgid "Price"
+#~ msgstr "价格"
+
+#~ msgid "Times"
+#~ msgstr "下载次数"
+
+#~ msgid "First"
+#~ msgstr "首页"
+
+#~ msgid "Prev"
+#~ msgstr "上一页"
+
+#~ msgid "Next"
+#~ msgstr "下一页"
+
+#~ msgid "Last"
+#~ msgstr "尾页"
+
+#~ msgid "Search"
+#~ msgstr "搜索"
+
+#~ msgid "Balance is insufficient, please recharge"
+#~ msgstr "余额不足，请充值"
+
+#~ msgid "Recharge Now"
+#~ msgstr "立即充值"
+
+#~ msgid "Internet Banking Online"
+#~ msgstr "网银在线"
+
+#~ msgid "Your favorites contains: <a href='javascript:;' class='shopping_cart_count'>%d</a> Applications"
+#~ msgstr "收藏夹: <a href='javascript:;' class='shopping_cart_count'>%d</a> 个应用"
+
+#~ msgid "Title"
+#~ msgstr "标题"
+
+#~ msgid "Excerpt"
+#~ msgstr "简介"
+
+#~ msgid "Operating"
+#~ msgstr "操作"
+
+#~ msgid "Delete"
+#~ msgstr "删除"
+
+#~ msgid "Buy"
+#~ msgstr "购买"
+
+#~ msgid "Install"
+#~ msgstr "安装"
+
+#~ msgid "TOTAL: <a href='javascript:;' class='shopping_cart_count'>%d</a> Applications, Price: <a href='javascript:;' class='shopping_cart_sum_price'>%s</a>"
+#~ msgstr "总计: <a href='javascript:;' class='shopping_cart_count'>%d</a> 个应用, 总价: <a href='javascript:;' class='shopping_cart_sum_price'>%s</a>"
+
+#~ msgid "Payment"
+#~ msgstr "确定购买"
+
+#~ msgid "Your favorites is empty."
+#~ msgstr "收藏夹中暂无应用"
+
+#~ msgid "Back to home"
+#~ msgstr "返回首页"
+
+#~ msgid "Id"
+#~ msgstr "编号"
+
+#~ msgid "Start"
+#~ msgstr "开始"
+
+#~ msgid "End"
+#~ msgstr "结束"
+
+#~ msgid "AdPlace"
+#~ msgstr "广告位"
+
+#~ msgid "Product Id"
+#~ msgstr "产品编号"
+
+#~ msgid "Start Time"
+#~ msgstr "开始时间"
+
+#~ msgid "End Time"
+#~ msgstr "结束时间"
+
+#~ msgid "Language"
+#~ msgstr "语言"
+
+#~ msgid "Ad Place"
+#~ msgstr "广告位"
+
+#~ msgid "Position Id"
+#~ msgstr "位置"
+
+#~ msgid "Ad Picture"
+#~ msgstr "广告图片"
+
+#~ msgid "Add"
+#~ msgstr "增加"
+
+#~ msgid "Total"
+#~ msgstr "总排行"
+
+#~ msgid "Week"
+#~ msgstr "一周排行"
+
+#~ msgid "January"
+#~ msgstr "一月排行"
+
+#~ msgid "Recommended"
+#~ msgstr "精品推荐"
+
+#~ msgid "Recommended topics"
+#~ msgstr "推荐专题"
+
+#~ msgid "Best paid Apps"
+#~ msgstr "付费排行榜"
+
+#~ msgid "Best free Apps"
+#~ msgstr "免费排行榜"
+
+#~ msgid "More"
+#~ msgstr "更多"
+
+#~ msgid "Go back"
+#~ msgstr "返回"
+
+#~ msgid "No content"
+#~ msgstr "没有了"
+
+#~ msgid "Dear %s"
+#~ msgstr "尊敬的 %s ，您好"
+
+#~ msgid "In Mofing personal application to retrieve the password, reset the password address"
+#~ msgstr "您在Mofing个人中心申请找回密码，重设密码地址"
+
+#~ msgid "If the above link is not clickable, you can also copy the link and paste it into your browser's address bar, then press 'Enter' to open the %s page."
+#~ msgstr "如果上面的链接无法点击，您也可以复制链接，粘贴到您浏览器的地址栏内，然后按“回车”打开%s页面。"
+
+#~ msgid "Note: This link expires after %d hours"
+#~ msgstr "注意：此链接%d小时后过期"
+
+#~ msgid "If you have additional questions, please contact us"
+#~ msgstr "如果您有其他问题，请联系我们"
+
+#~ msgid "If you do not retrieve the password operation, do not click on the above link and delete this message."
+#~ msgstr "如果您没有进行过找回密码的操作，请不要点击上述链接，并删除此邮件。"
+
+#~ msgid "Thanks"
+#~ msgstr "谢谢"
+
+#~ msgid "You have successfully registered, Mofing Please activate Activation Address"
+#~ msgstr "您在Mofing已经成功注册，请激活。激活地址："
+
+#~ msgid "Activation"
+#~ msgstr "激活"
+
+#~ msgid "Collect"
+#~ msgstr "收藏"
+
+#~ msgid "Download"
+#~ msgstr "下载"
+
+#~ msgid "company_name"
+#~ msgstr "深圳市易万卷文化产业有限公司"
+
+#~ msgid "clearCache"
+#~ msgstr "清理缓存"
+
+#~ msgid "/img/kid/btn-back.jpg"
+#~ msgstr "/img/kid/btn-back.jpg"
+
+#~ msgid "Overview"
+#~ msgstr "应用信息"
+
+#~ msgid "Reviews"
+#~ msgstr "应用评论"
+
+#~ msgid "User Reviews"
+#~ msgstr "用户评论"
+
+#~ msgid "Comments"
+#~ msgstr "评论"
+
+#~ msgid "Pay"
+#~ msgstr "购买"
+
+#~ msgid "New Arrivals"
+#~ msgstr "最新上架"
+
+#~ msgid "Top"
+#~ msgstr "排行榜"
+
+#~ msgid "Scores"
+#~ msgstr "本题分值"
+
+#~ msgid "%d points"
+#~ msgstr "%d 分"
+
+#~ msgid "Completion time"
+#~ msgstr "本题预计完成时间"
+
+#~ msgid "Practice Test Questions"
+#~ msgstr "练习试题"
+
+#~ msgid "The answer is correct, add %d points"
+#~ msgstr "回答正确，加%d分"
+
+#~ msgid "The answer is incorrect, Keep up the good work"
+#~ msgstr "答案不正确，请再接再厉"
+
+#~ msgid "Answers"
+#~ msgstr "答案"
+
+#~ msgid "Determine"
+#~ msgstr "确定答案"
+
+#~ msgid "Answer timeout"
+#~ msgstr "回答超时"
+
+#~ msgid "Your answer"
+#~ msgstr "您的答案是"
+
+#~ msgid "The correct answer"
+#~ msgstr "正确答案是"
+
+#~ msgid "Problem Analysis"
+#~ msgstr "问题分析"
+
+#~ msgid "Next question"
+#~ msgstr "下一题"
+
+#~ msgid "Questions answered ideas"
+#~ msgstr "试题解答思路"
+
+#~ msgid "Close"
+#~ msgstr "关闭"
+
+#~ msgid "The question does not exist!"
+#~ msgstr "问题不存在"
+
+#, fuzzy
+#~ msgid "InstantPaymentNotification"
+#~ msgstr "即时付款通知已删除"
+
+#, fuzzy
+#~ msgid "Edit InstantPaymentNotification"
+#~ msgstr "无效的即时付款通知。"
+
+#, fuzzy
+#~ msgid "Delete InstantPaymentNotification"
+#~ msgstr "无效的即时付款通知。"
+
+#, fuzzy
+#~ msgid "List InstantPaymentNotifications"
+#~ msgstr "无效的即时付款通知。"
+
+#, fuzzy
+#~ msgid "New InstantPaymentNotification"
+#~ msgstr "无效的即时付款通知。"
+
+#, fuzzy
+#~ msgid "InstantPaymentNotifications"
+#~ msgstr "即时付款通知已删除"
+
+#~ msgid "Actions"
+#~ msgstr "功能"
+
+#~ msgid "previous"
+#~ msgstr "下一页"
+
+#~ msgid "next"
+#~ msgstr "下一页"
+
+#~ msgid "Being Jump to Paypal"
+#~ msgstr "正在跳转到Paypal"
+
+#~ msgid "Paypal"
+#~ msgstr "Paypal"
+
+#, fuzzy
+#~ msgid "Unauthorized access"
+#~ msgstr "授权"
+
+#, fuzzy
+#~ msgid "PaypalItem"
+#~ msgstr "Paypal"
+
+#, fuzzy
+#~ msgid "Instant Payment Notification Id"
+#~ msgstr "即时付款通知已删除"
+
+#, fuzzy
+#~ msgid "Created"
+#~ msgstr "正在创建"
+
+#, fuzzy
+#~ msgid "Modified"
+#~ msgstr "修改"
+
+#, fuzzy
+#~ msgid "Edit PaypalItem"
+#~ msgstr "无效的PaypalItem。"
+
+#, fuzzy
+#~ msgid "Delete PaypalItem"
+#~ msgstr "无效的PaypalItem。"
+
+#, fuzzy
+#~ msgid "List PaypalItems"
+#~ msgstr "无效的PaypalItem。"
+
+#, fuzzy
+#~ msgid "New PaypalItem"
+#~ msgstr "无效的PaypalItem。"
+
+#, fuzzy
+#~ msgid "Add/Edit PaypalItem"
+#~ msgstr "无效的PaypalItem。"
+
+#, fuzzy
+#~ msgid "PaypalItems"
+#~ msgstr "Paypal"
+
+#~ msgid "Welcome MoFing"
+#~ msgstr "欢迎登录MoFing"
+
+#~ msgid "Email"
+#~ msgstr "邮箱"
+
+#~ msgid "E-mail"
+#~ msgstr "邮箱"
+
+#~ msgid "Upload"
+#~ msgstr "上传"
+
+#~ msgid "CleanCache"
+#~ msgstr "清理缓存"
+
+#~ msgid "User Account"
+#~ msgstr "我的账户"
+
+#~ msgid "Modify Avatar"
+#~ msgstr "修改头像"
+
+#~ msgid "Personal Information"
+#~ msgstr "个人信息"
+
+#~ msgid "Modify Information"
+#~ msgstr "修改信息"
+
+#~ msgid "Modify Password"
+#~ msgstr "修改密码"
+
+#~ msgid "My device"
+#~ msgstr "我的设备"
+
+#~ msgid "Purchase records"
+#~ msgstr "购买记录"
+
+#~ msgid "My Apps"
+#~ msgstr "我的应用"
+
+#~ msgid "Unbind"
+#~ msgstr "取消绑定"
+
+#~ msgid "Old Password"
+#~ msgstr "原密码"
+
+#~ msgid "New Password"
+#~ msgstr "新密码"
+
+#~ msgid "Comfirm Password"
+#~ msgstr "确认密码"
+
+#~ msgid "Save"
+#~ msgstr "保存"
+
+#~ msgid "Set my new avatar"
+#~ msgstr "设置我的新头像"
+
+#~ msgid "Please select a new photo upload editing."
+#~ msgstr "请选择一个新照片进行上传编辑。"
+
+#~ msgid "Avatar saved, you may need to refresh the page (press F5) to view the latest avatar"
+#~ msgstr "头像保存后，您可能需要刷新一下本页面(按F5键)，才能查看最新的头像效果"
+
+#~ msgid "Purchased Apps"
+#~ msgstr "购买记录"
+
+#~ msgid "Categories"
+#~ msgstr "应用分类"
+
+#~ msgid "Download time"
+#~ msgstr "下载时间"
+
+#~ msgid "Unknown"
+#~ msgstr "未知"
+
+#~ msgid "No Purchased"
+#~ msgstr "已购买"
+
+#~ msgid "My applications"
+#~ msgstr "我的应用"
+
+#~ msgid "Status"
+#~ msgstr "状态"
+
+#~ msgid "AddTime"
+#~ msgstr "增加时间"
+
+#~ msgid "All Devices"
+#~ msgstr "所有设备"
+
+#~ msgid "Device name"
+#~ msgstr "设备名称"
+
+#~ msgid "Please fill out the real mail, used to retrieve password"
+#~ msgstr "请填写真实的邮箱，用于找回密码"
+
+#~ msgid "UserName"
+#~ msgstr "用户名"
+
+#~ msgid "6 to 16 characters, available in English, numbers, underscores"
+#~ msgstr "6~12个字符，可用中英文、数字、下划线"
+
+#~ msgid "ConfirmPassword"
+#~ msgstr "确认密码"
+
+#~ msgid "Please enter the password again"
+#~ msgstr "请输入确认密码"
+
+#~ msgid "NikeName"
+#~ msgstr "昵称"
+
+#~ msgid "Gender"
+#~ msgstr "性别"
+
+#~ msgid "Male"
+#~ msgstr "男"
+
+#~ msgid "Female"
+#~ msgstr "女"
+
+#~ msgid "Service"
+#~ msgstr "服务条款"
+
+#~ msgid "Agree"
+#~ msgstr "同意"
+
+#~ msgid "Disagree"
+#~ msgstr "不同意"
+
+#~ msgid "VerificationCode"
+#~ msgstr "验证码"
+
+#~ msgid "Enter you logged in with the Email, we will send the password recovery link to the mailbox."
+#~ msgstr "请输入您登录时所使用的Email，我们会将该密码修复链接发送到该邮箱。"
+
+#~ msgid "Account number and password can not be empty"
+#~ msgstr "账号和密码都不能为空"
+
+#~ msgid "Please enter the correct account number or E-mail"
+#~ msgstr "请输入正确的账号或者邮箱"
+
+#~ msgid "Please enter the correct password"
+#~ msgstr "请输入正确的密码"
+
+#~ msgid "E-mail or Mofing number"
+#~ msgstr "邮箱或者Mofing账号"
+
+#~ msgid "Not yet registered"
+#~ msgstr "还没有木丰账号"
+
+#~ msgid "LastName"
+#~ msgstr "姓氏"
+
+#~ msgid "FirstName"
+#~ msgstr "名字"
+
+#~ msgid "Birthday"
+#~ msgstr "生日"
+
+#~ msgid "Area"
+#~ msgstr "地区"
+
+#~ msgid "Mobile"
+#~ msgstr "手机"
+
+#~ msgid "MSN"
+#~ msgstr "MSN"
+
+#~ msgid "Regist Date"
+#~ msgstr "注册日期"
+
+#~ msgid "Seccode"
+#~ msgstr "验证码"
+
+#~ msgid "Mofing Member"
+#~ msgstr "Mofing会员中心"
+
+#~ msgid "MofingKids VIP Service Center"
+#~ msgstr "Mofing VIP服务中心"
+
+#~ msgid "Mofing"
+#~ msgstr "Mofing"
+
+#~ msgid "App description"
+#~ msgstr "应用介绍"
+
+#~ msgid "company_domain"
+#~ msgstr "http://www.million-e.com.cn/"
+
+#~ msgid "File upload directory permissions can not be set as readable and writable"
+#~ msgstr "文件上传目录的权限不能设置为可读和可写的"
+
+#~ msgid "Personal Informations"
+#~ msgstr "个人信息"
+
+#~ msgid "Modify informations"
+#~ msgstr "修改个人信息"
+
+#~ msgid "Welcome"
+#~ msgstr "欢迎"
+
+#~ msgid "Your password has been saved."
+#~ msgstr "密码保存成功"
+
+#~ msgid "'Mofing Login'"
+#~ msgstr "'Mofing 登录'"
+
+#~ msgid "No more"
+#~ msgstr "没有内容"
+
+#~ msgid "Welcome to "
+#~ msgstr "欢迎光临"
+
+#~ msgid "Account"
+#~ msgstr "账号"
+
+#~ msgid "Mofing HomeWork"
+#~ msgstr "木丰家庭作业"
+
+#~ msgid "Hot"
+#~ msgstr "热门应用"
+
+#~ msgid "VIP Gifts"
+#~ msgstr "会员大礼包"
+
+#~ msgid "Email or Password is incorrect"
+#~ msgstr "邮箱或密码不正确"
+
+#~ msgid ""
+#~ "\n"
+#~ " - No Configuration:"
+#~ msgstr ""
+#~ "\n"
+#~ " - 没有配置:"
+
+#~ msgid "Equipment has bound other account"
+#~ msgstr "设备已绑定其他帐户"
+
+#~ msgid "Kids"
+#~ msgstr "儿童"
+
+#~ msgid "User Center"
+#~ msgstr "个人管理中心"
+
+#~ msgid "My mall"
+#~ msgstr "我的商城"
+
+#~ msgid "Mofing Vip"
+#~ msgstr "Mofing VIP"
+
+#~ msgid "The InstantPaymentNotification has been saved"
+#~ msgstr "即时付款通知已保存"
+
+#~ msgid "The InstantPaymentNotification could not be saved. Please, try again."
+#~ msgstr "无法保存即时付款通知。请再试一次。"
+
+#~ msgid "Invalid id for InstantPaymentNotification"
+#~ msgstr "即时付款通知的ID无效"
+
+#~ msgid "Share"
+#~ msgstr "分享"
+
+#~ msgid "Featured Today"
+#~ msgstr "今日推荐"
+
+#~ msgid "Not the same application, different experience"
+#~ msgstr "不一样的应用，不一样的体验"
+
+#~ msgid "Media"
+#~ msgstr "业务应用"
+
+#~ msgid "Contact Us"
+#~ msgstr "联系我们"
+
+#~ msgid "Choose the right solution"
+#~ msgstr "请选择正确的答案"
+
+#~ msgid "Thousands of applications, selected with you!"
+#~ msgstr "万千应用，随您所选！"
+
+#~ msgid "If the above link is not clickable, you can also copy the link and paste it into your browser's address bar, then press 'Enter' to open the Reset Password page."
+#~ msgstr "如果上面的链接无法点击，您也可以复制链接，粘贴到您浏览器的地址栏内，然后按“回车”打开重置密码页面。"
+
+#~ msgid "Click the link below to activate your account."
+#~ msgstr "点击下面的链接激活账户"
+
+#~ msgid "Click the following link to reset your password."
+#~ msgstr "点击下面的链接重置密码。"
+
+#~ msgid "Balance:"
+#~ msgstr "余额"
+
+#~ msgid "TOTAL: %d Applications, Price: %s"
+#~ msgstr "总共: %d 个应用, 总价: %s"
+
+#~ msgid "You've commented before"
+#~ msgstr "您已经评论过"
+
+#~ msgid "Also did not download the application"
+#~ msgstr "还没有下载的应用程序"
+
+#~ msgid "Passwords do not match."
+#~ msgstr "密码错误"
+
+#~ msgid "Start time"
+#~ msgstr "开始时间"
+
+#~ msgid "Finish"
+#~ msgstr "完成"
+
+#~ msgid "My Info"
+#~ msgstr "我的资料"
+
+#~ msgid "Address"
+#~ msgstr "地址"
+
+#~ msgid "F_birthday"
+#~ msgstr "爸爸生日"
+
+#~ msgid "M_birthday"
+#~ msgstr "妈妈生日"
+
+#~ msgid "Title or file can not empty"
+#~ msgstr "标题和文件不能为空"
+
+#~ msgid "Password and Confirm Password inconsistent"
+#~ msgstr "密码和确认密码不一致"
+
+#~ msgid "Login is successful"
+#~ msgstr "登录成功"
+
+#~ msgid "Login failed"
+#~ msgstr "登录失败"
+
+#~ msgid "key_word"
+#~ msgstr "关键字"
+
+#~ msgid "channel"
+#~ msgstr "频道"
+
+#~ msgid "product_name"
+#~ msgstr "产品中心"
+
+#~ msgid "Dad Birthday"
+#~ msgstr "爸爸生日"
+
+#~ msgid "Mom Birthday"
+#~ msgstr "妈妈生日"
+
+#~ msgid "Do not agree"
+#~ msgstr "不同意"
+
+#~ msgid "Picture"
+#~ msgstr "图片"
+
+#~ msgid "Your account could not be created. Please try again."
+#~ msgstr "创建帐户失败。请再试一次。"
+
+#~ msgid ""
+#~ "Your Name:%s \n"
+#~ "\n"
+#~ "The password:%s \n"
+#~ "\n"
+#~ "Click the following link to activate your account\n"
+#~ "\n"
+#~ "%s"
+#~ msgstr ""
+#~ "用户名:%s \n"
+#~ "\n"
+#~ "密码:%s \n"
+#~ "\n"
+#~ "点击以下链接激活您的帐户\n"
+#~ "\n"
+#~ "%s"
+
+#~ msgid "id"
+#~ msgstr "编号"
+
+#~ msgid "type"
+#~ msgstr "类型"
+
+#~ msgid "prevPage"
+#~ msgstr "« 上一页"
+
+#~ msgid "english"
+#~ msgstr "英语，就是这个啦"

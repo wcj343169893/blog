@@ -1,0 +1,51 @@
+*{margin:0;padding:0;}
+body{
+	font:18px/20px "Microsoft YaHei",arial,serif;
+	color:#fff;
+	background:#fff;
+}
+img{border:0;}
+a{text-decoration:none;}
+
+.header,
+.container,
+.footer{
+	margin-left:auto;
+	margin-right:auto;
+	width:960px;
+	margin-top:10px;
+	text-align:center;
+}
+
+.header{
+	height:100px;
+	background:#333;
+}
+
+.sidebarLeft,
+.main,
+.sidebarRight{
+	background:#333;
+	float:left;
+	height:400px;
+}
+
+.sidebarLeft,
+.sidebarRight{
+	width:200px;
+}
+
+.main{
+	margin-left:10px;
+	margin-right:10px;
+	width:540px;
+}
+
+.container{
+	height:400px;
+}
+
+.footer{
+	height:100px;
+	background:#333;
+}
