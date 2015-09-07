@@ -30,8 +30,8 @@
         <?php echo $this->BSForm->create($modelClass); ?>
 			<fieldset>
 				<legend>修改文章</legend>
-				<?php echo $this->BSForm->input("Article.articleTitle", array('created', 'modified', 'updated',"value"=>$data["Article"]["articleTitle"])); ?>
-				<?php echo $this->BSForm->input("Article.articleTypeId", array('created', 'modified', 'updated',"value"=>$data["Article"]["articleTypeId"])); ?>
+				<?php echo $this->BSForm->input("Article.articleTitle", array('created', 'modified', 'updated',"value"=>$data["Article"]["articleTitle"],"label"=>array("text"=>"标题"))); ?>
+				<?php echo $this->BSForm->input("Article.articleTypeId", array('created', 'modified', 'updated',"value"=>$data["Article"]["articleTypeId"],"label"=>array("text"=>"分类"))); ?>
 				<div class="control-group">
 					<label for="ArticleArticleContent">正文</label>
 					<textarea name="data[Article][articleContent]" class="ckeditor"

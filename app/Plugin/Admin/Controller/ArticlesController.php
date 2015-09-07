@@ -77,21 +77,7 @@ class ArticlesController extends AdminAppController {
 			// 默认值
 			$default = array (
 					"oId" => $id,
-					"articleAuthorEmail" => " ",
-					"articleCommentCount" => "0",
-					"articleViewCount" => "0",
-					"articlePermalink" => " ",
-					"articleHadBeenPublished" => "1",
-					"articleIsPublished" => "1",
-					"articlePutTop" => " ",
-					"articleCreateDate" => date ( "Y-m-d H:i:s" ),
 					"articleUpdateDate" => date ( "Y-m-d H:i:s" ),
-					"articleRandomDouble" => "0",
-					"articleSignId" => " ",
-					"articleCommentable" => "1",
-					"articleViewPwd" => " ",
-					"articleEditorType" => "ckeditor",
-					"source" => " " 
 			);
 			$content = $data ["Article"] ["articleContent"];
 			$default ["articleAbstract"] = String::truncate ( strip_tags ( $content ), 200 );
