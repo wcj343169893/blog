@@ -49,7 +49,7 @@ class PagesController extends AppController {
 			'Text',
 			'Form' 
 	);
-	public $components = array('DebugKit.Toolbar');
+	//public $components = array('DebugKit.Toolbar');
 	/**
 	 * This controller does not use a model
 	 *
@@ -63,7 +63,7 @@ class PagesController extends AppController {
 			"ArticleTags" 
 	);
 	var $cacheAction = array(
-		 'display' => array('callbacks' => true, 'duration' => 21600),
+		'display' => array('callbacks' => true, 'duration' => 21600),
 		 'article' => array('callbacks' => true, 'duration' => 36000),
 		 'link' => array('callbacks' => true, 'duration' => 48000),
 		 'about' => array('callbacks' => true, 'duration' => 48000),

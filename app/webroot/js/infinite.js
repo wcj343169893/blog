@@ -82,5 +82,9 @@ jQuery(function ($) {
 });
 function resetHeight(){
 	 var wheight =  $(window).height();
-		$("#article_list").height(wheight-60);
+	 if(!/iphone|nokia|sony|ericsson|mot|samsung|sgh|lg|philips|panasonic|alcatel|lenovo|cldc|midp|wap|android|iPod/i.test(navigator.userAgent.toLowerCase())){ 
+		 $("#article_list").height(wheight-60);
+	 }else{
+		 $("#article_list").height(wheight-45);
+	 }
 }

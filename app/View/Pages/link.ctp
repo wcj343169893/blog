@@ -1,6 +1,8 @@
 <section class="c_cont f_left">
 	<ul class="link">
-      	<h5 class="c_t">友情链接</h5>
+		<li>
+	      	<h5 class="c_t">友情链接</h5>
+      	</li>
           <li class="link_cont">
           	<?php if(!empty($links)){?>
           	<?php foreach ($links as $link){?>

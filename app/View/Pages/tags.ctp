@@ -1,6 +1,8 @@
-<section class="c_cont f_left">
+<section class="c_cont f_left c_tags">
 	<ul class="link">
-      	<h5 class="c_t">标签</h5>
+		<li>
+      		<h5 class="c_t">标签</h5>
+		</li>
           <li class="link_cont tag_wall">
           	<?php if(!empty($alltag)){?>
           	<?php foreach ($alltag as $tag){

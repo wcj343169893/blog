@@ -9,6 +9,7 @@
 <meta name="keywords" content="<?php echo $keywords_for_layout; ?>" />
 <meta name="description" content="<?php echo $description_for_layout; ?>" />
 <meta name="author" content="<?php echo $auth_for_layout?>" />
+<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,initial-scale=1.0,user-scalable=no"/>
 <?php 
 echo $this->Html->meta('icon');
 echo $this->Html->css('base');
