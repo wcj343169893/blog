@@ -87,7 +87,8 @@ box-shadow: 0px 5px 20px;width: 220px;}
 .tag_wall a{display: inline-block;
 margin: 0px 6px;
 padding: 0px 4px;width: auto;}
-
+.wrap_image{width:100%;overflow:scroll;padding-bottom:8px}
+#down img{max-width: inherit;}
 
 /* Scrollbar */
 .slyscrollbar {

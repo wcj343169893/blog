@@ -65,5 +65,17 @@ $(function(){
 	var wheight =  $(window).height();
 	$("#down").height(wheight-60);
 	$("#down").niceScroll({cursorcolor:"#1cbdc5",cursorwidth:"4px",cursorborder:"0"});
+	var wwidth=$("#down").width()-10;
+	$("#down img").load(function(){
+		var iwidth=$(this).width();
+		if(iwidth > wwidth){
+			//如果只超过50，则只缩放
+			if(iwidth-50 > wwidth){
+				$(this).wrap("<div class='wrap_image'></div>");
+			}else{
+				$(this).css({"width":"100%","height":"auto"});
+			}
+		}
+	});
 });
 </script>
