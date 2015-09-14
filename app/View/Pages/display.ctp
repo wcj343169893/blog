@@ -30,6 +30,6 @@
 			echo $this->Html->link($nextPage,array('controller' => 'pages', 'action' => 'display',"ext"=>"html",$nextPage));
 	}?>
 </div>
-<?php echo $this->Html->script("jquery.masonry",array("inline"=>false));?>
-<?php echo $this->Html->script("jquery.infinitescroll.min",array("inline"=>false));?>
+<?php echo $this->Html->script("http://file2.mofing.com/js/b/jquery.masonry.js",array("inline"=>false));?>
+<?php echo $this->Html->script("http://file2.mofing.com/js/b/jquery.infinitescroll.min.js",array("inline"=>false));?>
 <?php echo $this->Html->script("infinite",array("inline"=>false));?>

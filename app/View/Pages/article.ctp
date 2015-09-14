@@ -59,7 +59,7 @@
             <!-- Duoshuo Comment END -->
         </section>
     </aside>
-<?php echo $this->Html->script("jquery.nicescroll.min",array("inline"=>false));?>
+<?php echo $this->Html->script("http://file2.mofing.com/js/b/jquery.nicescroll.min.js",array("inline"=>false));?>
 <script type="text/javascript">
 $(function(){
 	var wheight =  $(window).height();

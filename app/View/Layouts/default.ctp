@@ -15,16 +15,16 @@ echo $this->Html->meta('icon');
 echo $this->Html->css('base');
 echo $this->Html->css('layout');
 echo $this->Html->css('master');
-echo $this->Html->script('jquery');
-echo $this->Html->script('plugins');
-echo $this->Html->script('sly.min');
+echo $this->Html->script('http://file2.mofing.com/js/b/jquery.js');
+echo $this->Html->script('http://file2.mofing.com/js/b/plugins.js');
+echo $this->Html->script('http://file2.mofing.com/js/b/sly.min.js');
 
 echo $this->fetch('css');
 echo $this->fetch('script');
 ?>
 <!-- <link href='http://fonts.googleapis.com/css?family=Open+Sans|Satisfy' rel='stylesheet' type='text/css'> -->
 <!--[if IE]>
-<script src="/js/html5.js"></script>
+<script src="http://file2.mofing.com/js/b/html5.js"></script>
 <![endif]-->
 </head>
 <?php $action=$this->request->params["action"];$nav_index=1;switch ($action) {case "about":	$nav_index=2;break;	case "tag":	$nav_index=4;break;	case "link":$nav_index=3;break;}?>
