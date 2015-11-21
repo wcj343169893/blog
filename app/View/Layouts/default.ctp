@@ -12,9 +12,10 @@
 <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,initial-scale=1.0,user-scalable=no"/>
 <?php 
 echo $this->Html->meta('icon');
-echo $this->Html->css('base');
-echo $this->Html->css('layout');
-echo $this->Html->css('master');
+// echo $this->Html->css('base');
+// echo $this->Html->css('layout');
+// echo $this->Html->css('master');
+echo $this->Html->css('blog');
 echo $this->Html->script('http://file2.mofing.com/js/b/jquery.js');
 echo $this->Html->script('http://file2.mofing.com/js/b/plugins.js');
 echo $this->Html->script('http://file2.mofing.com/js/b/sly.min.js');
@@ -68,7 +69,7 @@ echo $this->fetch('script');
 </div>
 <!--main end-->
 <footer class="footer">
-	<p>Copyright ©2013-2015 www.choujone.com</p>
+	<p>Copyright ©2013-2015 www.cjblog.org</p>
 </footer>
 <!--footer end-->
 <script type="text/javascript">
