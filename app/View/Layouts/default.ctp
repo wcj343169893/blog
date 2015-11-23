@@ -10,6 +10,12 @@
 <meta name="description" content="<?php echo $description_for_layout; ?>" />
 <meta name="author" content="<?php echo $auth_for_layout?>" />
 <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,initial-scale=1.0,user-scalable=no"/>
+<link href="/favicon.ico" rel="shortcut icon" />
+<link href="/favicon.ico" rel="Bookmark" />
+<link rel="apple-touch-icon" sizes="57x57" href="touch-icon-iphone.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="touch-icon-ipad.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="touch-icon-iphone4.png" />  
+<link rel="apple-touch-icon" sizes="144x144" href="apple-touch-icon-ipad3-144.png" />
 <?php 
 echo $this->Html->meta('icon');
 // echo $this->Html->css('base');
